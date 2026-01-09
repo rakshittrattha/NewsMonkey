@@ -1,0 +1,39 @@
+.category-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 30px;
+  background: #0d1117;
+  color: #bbb;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.categories {
+  display: flex;
+  gap: 32px;
+}
+
+.category-item {
+  cursor: pointer;
+  padding-bottom: 6px;
+  transition: all 0.2s ease;
+}
+
+.category-item:hover {
+  color: #58a6ff;
+}
+
+.category-item.active {
+  color: #58a6ff;
+  border-bottom: 3px solid #58a6ff;
+}
